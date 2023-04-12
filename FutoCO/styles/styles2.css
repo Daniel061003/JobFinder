@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+}
+nav a:hover{
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-image: linear-gradient(rgb(118, 252, 118),white);
+    font-family: Source Sans Pro;
+    border: 1px solid rgb(235, 235, 235);
+
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    color: #222;
+    font-size: 18px;
+    letter-spacing: .5px;
+    padding: 0 20px;
+    cursor: pointer;   
+}
+
+a:before,a:after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background: white;
+    transition: .5s;
+}
+
+a:after{
+    left: 0;
+    bottom: -10px;
+}
+
+a:before{
+    right: 0;
+    top: -10px;
+}
+
+
+a:hover:after,a:hover:before{
+    width: 100%;
+
+}
+
+.form-navbar{
+    padding-top: 8px;
+}
+
+#banner{
+    display: block;
+    text-align: center;
+    background-color: white;
+    background-position: 30 130px;
+    background-image: url(../images/empregobanner.webp);
+    background-size: cover;
+    margin-bottom: 30px;
+    padding-bottom: 170px;
+    padding-top: 40px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    margin: 16px;
+    display: block;
+}
+
+p{
+    color: white;
+    display: block;
+    font-size: 1em;
+    margin: 0;
+}
+
+input#job{
+    text-align: center;
+    padding: 10px 12px;
+    width: 50%;
+    border-radius: 3px;
+    font-size: 18px;
+    border: none;
+    border: white solid 2px;
+}
+
+#searchbtn{
+    text-align: left;
+    padding: 16px;
+    background-color: green;
+    display: block;
+    margin-left: 335px;
+    color: white;    
+    font-size: 18px;
+    border: solid green 2px;
+    border-radius: 3px;
+}
+
+h2{
+    color: black;
+    font-size: 32px;
+    margin-left: 60px;
+
+}

@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+}
+
+main{
+    margin: 8px;
+}
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Oswald', sans-serif;
+    color:  #2db931;
+    margin: 0;
+    width: 500px;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+footer{
+    padding-left: 8px
+}
+
+#title2{
+    color: #a6db12;
+}
+
+
+img{
+    display: block;
+    margin: 0 auto;
+
+}
+
+p{ 
+    font-size: 18px;
+    width: 750px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#p-sobre{
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+    padding: 0 20px 20px 20px;
+    position: relative;
+    top: 19px;
+    
+}
+
+#sobre{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    position: relative;
+    top: 50px;
+
+}
+
+.op-title{
+    font-size: 30px;
+    line-height: 3;
+    letter-spacing: -0.001em;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+nav a:hover{
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(rgb(118, 252, 118),white);
+    font-family: Source Sans Pro;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    color: #222;
+    font-size: 18px;
+    letter-spacing: .5px;
+    padding: 0 20px;
+    cursor: pointer;   
+}
+
+a:before,a:after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background: white;
+    transition: .5s;
+}
+
+a:after{
+    left: 0;
+    bottom: -10px;
+}
+
+a:before{
+    right: 0;
+    top: -10px;
+}
+
+
+a:hover:after,a:hover:before{
+    width: 100%;
+
+}
+
+.form-navbar{
+    padding-top: 8px;
+}
+
+
+#page-sustentabilidade{
+    padding-left: 8px;
+}
+
+#container h1, #container p{
+    margin: 0;
+    text-align: center;
+}
